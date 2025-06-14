@@ -1,0 +1,60 @@
+:root {
+  /* Using tailwindcss as a reference. See https://tailwindcss.com/docs/font-size */
+  --text-lg: 1.125rem;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+article {
+  border: 3px solid black;
+}
+
+h2 {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: var(--text-lg);
+}
+
+ul {
+  list-style-type: square;
+}
+
+button {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: var(--text-lg);
+  border: none;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+
+.price {
+  font-size: 1.2rem;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  color: #999;
+  font-weight: bold;
+  font-size: 0.75rem;
+}
+
+a:link {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.product-details {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+}
