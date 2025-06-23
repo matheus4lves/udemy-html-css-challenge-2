@@ -3,6 +3,11 @@
   --text-lg: 1.125rem;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,10 +21,13 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   font-size: var(--text-lg);
+  padding: 16px;
 }
 
 ul {
   list-style-type: square;
+  margin-inline-start: 20px;
+  margin-block-end: 8px;
 }
 
 button {
@@ -28,22 +36,18 @@ button {
   text-transform: uppercase;
   font-size: var(--text-lg);
   border: none;
+  padding: 16px;
+  width: 100%;
 }
 
 button:hover {
   background-color: white;
   color: black;
+  border-block-start: 3px solid black;
 }
 
-.price {
-  font-size: 1.2rem;
-}
-
-.free-shipping {
-  text-transform: uppercase;
-  color: #999;
-  font-weight: bold;
-  font-size: 0.75rem;
+li {
+  margin-block-end: 16px;
 }
 
 a:link {
@@ -54,7 +58,33 @@ a:hover {
   text-decoration: none;
 }
 
+.price {
+  font-size: 1.2rem;
+}
+
+.shipping-info {
+  text-transform: uppercase;
+  color: #999;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-block-end: 20px;
+}
+
 .product-details {
   text-transform: uppercase;
   font-size: 0.875rem;
+  margin-block-end: 16px;
+}
+
+.wrapper {
+  width: 825px;
+  margin: 50px auto;
+}
+
+.product-description {
+  margin-block-end: 16px;
+}
+
+.more-info {
+  margin-block-end: 32px;
 }
