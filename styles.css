@@ -79,6 +79,21 @@ a:hover {
 .wrapper {
   width: 825px;
   margin: 50px auto;
+  position: relative;
+}
+
+.wrapper::before {
+  content: "sale";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 16px;
+  background: red;
+  color: white;
+  position: absolute;
+  top: -16px;
+  left: -32px;
 }
 
 .product-description {
