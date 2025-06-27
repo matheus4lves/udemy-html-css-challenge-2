@@ -17,6 +17,9 @@ article {
 }
 
 h2 {
+.product__header {
+  position: relative;
+}
   background-color: #f7f7f7;
   text-transform: uppercase;
   text-align: center;
@@ -33,6 +36,7 @@ ul {
 button {
   background-color: black;
   color: white;
+.product__sale-badge {
   text-transform: uppercase;
   font-size: var(--text-lg);
   border: none;
@@ -56,13 +60,22 @@ a:link {
 
 a:hover {
   text-decoration: none;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 16px;
+  background: red;
+  color: white;
+  position: absolute;
+  top: -16px;
+  left: -32px;
 }
 
-.price {
+.product__price {
   font-size: 1.2rem;
 }
 
-.shipping-info {
+.product__shipping {
   text-transform: uppercase;
   color: #999;
   font-weight: bold;
@@ -76,24 +89,7 @@ a:hover {
   margin-block-end: 16px;
 }
 
-.wrapper {
-  width: 825px;
-  margin: 50px auto;
-  position: relative;
-}
 
-.wrapper::before {
-  content: "sale";
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  font-weight: bold;
-  display: inline-block;
-  padding: 8px 16px;
-  background: red;
-  color: white;
-  position: absolute;
-  top: -16px;
-  left: -32px;
 }
 
 .product-description {
