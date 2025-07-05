@@ -1,0 +1,122 @@
+.product {
+  border: 3px solid black;
+}
+
+.product__header {
+  position: relative;
+}
+
+.product__heading {
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: var(--text-lg);
+  padding: 16px;
+}
+
+.product__sale-badge {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 8px 16px;
+  background: red;
+  color: white;
+  position: absolute;
+  top: -16px;
+  left: -32px;
+}
+
+.product__price {
+  font-size: 1.2rem;
+  float: left;
+}
+
+.product__shipping {
+  text-transform: uppercase;
+  color: #999;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin-block-end: 20px;
+  float: right;
+}
+
+.product__description {
+  margin-block-end: 16px;
+  clear: both;
+}
+
+.product__info {
+  margin-block-end: 32px;
+}
+
+/* The order is important: link, visited, focus, hover, active (LVFHA) */
+.product__info-link:link {
+  color: black;
+}
+
+.product__info-link:hover {
+  text-decoration: none;
+}
+
+.product__details {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-block-end: 16px;
+}
+
+.product__details-list {
+  list-style-type: square;
+  margin-inline-start: 16px;
+  margin-block-end: 0px;
+}
+
+.product__details-item {
+  margin-block-end: 16px;
+}
+
+.product__details-item:last-child {
+  margin-block-end: 0px;
+}
+
+.product__btn {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+  font-size: var(--text-lg);
+  border: none;
+  padding: 16px;
+  width: 100%;
+  clear: both;
+}
+
+.product__btn:hover {
+  background-color: white;
+  color: black;
+  border-block-start: 3px solid black;
+}
+
+.product__left,
+.product__middle,
+.product__right {
+  float: left;
+}
+
+.product__middle,
+.product__right {
+  width: 225px;
+  margin-inline-start: 40px;
+}
+
+.product__left {
+  height: 250px;
+  line-height: 250px;
+}
+
+.product__middle {
+  margin-block-start: 29px;
+}
+
+.product__right {
+  margin-block-start: 39px;
+}

@@ -1,0 +1,42 @@
+.color-list {
+  list-style: none;
+  padding: 0;
+  height: 20px;
+  line-height: 20px;
+}
+
+.color-item {
+  margin-inline-end: 5px;
+  margin-block-end: 0;
+}
+
+.color-item,
+.color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.black {
+  background-color: black;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.brown {
+  background-color: brown;
+}

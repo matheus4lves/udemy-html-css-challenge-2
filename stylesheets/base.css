@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Using tailwindcss as a reference. See https://tailwindcss.com/docs/font-size */
+  --text-lg: 1.125rem;
+}
