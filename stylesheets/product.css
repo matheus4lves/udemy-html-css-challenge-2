@@ -27,9 +27,14 @@
   left: -32px;
 }
 
+.product__middle-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .product__price {
   font-size: 1.2rem;
-  float: left;
 }
 
 .product__shipping {
@@ -37,17 +42,6 @@
   color: #999;
   font-weight: bold;
   font-size: 0.75rem;
-  margin-block-end: 20px;
-  float: right;
-}
-
-.product__description {
-  margin-block-end: 16px;
-  clear: both;
-}
-
-.product__info {
-  margin-block-end: 32px;
 }
 
 /* The order is important: link, visited, focus, hover, active (LVFHA) */
@@ -97,12 +91,10 @@
 }
 
 .product__left,
-.product__middle,
 .product__right {
   float: left;
 }
 
-.product__middle,
 .product__right {
   width: 225px;
   margin-inline-start: 40px;
@@ -111,10 +103,6 @@
 .product__left {
   height: 250px;
   line-height: 250px;
-}
-
-.product__middle {
-  margin-block-start: 29px;
 }
 
 .product__right {
