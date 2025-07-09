@@ -56,13 +56,19 @@
 .product__details {
   text-transform: uppercase;
   font-size: 0.875rem;
+  margin-block-end: 32px;
 }
 
 .product__details-list {
   list-style-type: square;
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 16px;
+}
+
+.product__details-item {
+  margin-block-end: 16px;
+}
+
+.product__details-item:last-child {
+  margin-block-end: 0;
 }
 
 .product__btn {
@@ -97,7 +103,4 @@
 .product__right {
   margin: 0 30px 0 16px;
   flex: 1;
-  display: flex;
-  flex-flow: column nowrap;
-  gap: 32px;
 }
